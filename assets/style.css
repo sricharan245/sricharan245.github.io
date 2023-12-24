@@ -1,0 +1,29 @@
+.container-fluid{
+    margin: 5px;
+}
+
+img{
+   border-radius: 5px;
+}
+
+.row {
+    padding: 8px;
+}
+
+.heading {
+    color: steelblue;
+}
+.text{
+    font-size: 1.3em;
+}
+
+#contactform {
+    width: 60%;
+    margin: auto;
+}
+
+.project-title {
+    font-size: 1.5em;
+    color: steelblue;
+}
+

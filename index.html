@@ -1,8 +1,144 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Charan</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets\style.css">
+  <script src="https://kit.fontawesome.com/febd6a1905.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  Welcome!
+  <div class="container-fluid">
+
+
+    <div class="container">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#home">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sitenavbar"
+          aria-controls="sitenavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="sitenavbar">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#whatIdo">What I do <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#projects">Projects</a>
+            <a class="nav-item nav-link active" href="#contactform">Contact</a>
+            <a class="nav-item nav-link active" href="assets/resumes/resume.pdf" name="sri-charan-resume">CV</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="home">
+        <div class="display-4 m-2">Hi, I'm Sri Charan Bodduna </div>
+        <div class="h2 m-2 heading">A Data Scientist</div>
+        <p class="text m-2">
+          I am passionate about exploring data and finding insights using various Machine Learning and data science
+          tools. I am
+          currently
+          building highly efficient models with best solutions in the industry.
+        </p>
+        <div class="ml-2 pt-3">
+          <i class="fa-brands fa-linkedin fa-2xl ml-2 mr-2" style="border-radius: 10px;"></i>
+            <a href="http://linkedin.com/in/sri-charan-bodduna"><span>LinkedIn</span></a>
+          <i class="fa-brands fa-github fa-2xl ml-2 mr-2" style="border-radius: 10px;"></i>
+            <a href="http://github.com/sricharan245"><span>GitHub</span></a>
+          <i class="fa fa-envelope fa-2xl ml-2 mr-2" style="border-radius: 10px;"></i>
+          <a href="mailto:sricharan0246@gmail.com">sricharan0246@gmail.com</a>
+        </div>
+      </div>
+      <hr>
+      <div id="whatIdo" class="m-2">
+        <div class="h2 heading">What I do</div>
+        <div class="text">I love artificial Intelligence. I am creating and optimizing AI models which have below
+          capabilities:
+          <ul>
+            <li>Follows ethical standards of data and AI.</li>
+            <li>Flawless models to predict outcomes and improve business.</li>
+            <li>Optimizing models to produce results in best way possible.</li>
+            <li>Scaling the models and ML design to be data driven and cost-effective features with industry standards.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+
+
+      <div id="projects" class="m-2">
+        <div class="h2 heading">Projects </div>
+        <div class="row">
+
+          <div class="col-lg-3">
+            <img src="assets/images/police_arrests.jpg" width="250px" height="150px">
+          </div>
+          <div class="col-lg-9">
+            <div class="h3 project-title">Dallas Crime Analysis Reporting using Tableau</div>
+            <div class="p text">I have developed a eye catching data visualization on city of Dallas police arrests. I
+              have
+              found many insights about arrests patterns and frequency of arrests in the city. These outcomes can be
+              used
+              by city managers to view and strengthen the law and order of the city.
+            </div>
+          </div>
+
+        </div>
+        <div class="w-100"></div>
+        <div class="row"></div>
+        <div class="row">
+
+          <div class="col-lg-3">
+            <img src="assets/images/heart-attack-prediction.jpg" width="250px" height="150px">
+          </div>
+          <div class="col-lg-9">
+            <div class="h3 project-title">Heart Attack Prediction System using Decision Tree Algorithm</div>
+            <div class="p text">
+              I have built the predictive ML model which can predict whether a patient have chance getting heart attack.
+              Doctors and research analysts can use this model as precautionary measures for their patient and provide
+              appropriate treatments and actions.
+            </div>
+          </div>
+
+        </div>
+        <!-- <div class="w-100"></div> -->
+      </div>
+
+      <hr>
+      <div class="h2 heading">Contact</div>
+      <div id="contactform" class="mb-2">
+        <div class="mx-auto">
+          <form action="https://formsubmit.co/sricharan0246+pws@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="form-group">
+              <label for="cf-name" class="text">Name</label>
+              <input type="text" class="form-control" id="cf-name" name="name" placeholder="John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-email" class="text">Email address</label>
+              <input type="email" class="form-control" id="cf-email" name="email" placeholder="johnd@example.com"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-msg" class="text">Message</label>
+              <textarea class="form-control" id="cf-msg" name="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+      </nav>
+    </div>
+  </div>
 </body>
+
 </html>
