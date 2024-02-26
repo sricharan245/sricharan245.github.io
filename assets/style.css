@@ -30,3 +30,8 @@ img{
 .education-row {
     padding: 0;
 }
+
+#pp-img {
+    border-radius: 50%;
+    margin-top: 5%;
+}
