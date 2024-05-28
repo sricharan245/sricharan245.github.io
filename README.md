@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on web apps 
 - 📫 You can reach me on 
 -   Gmail : sricharan245@gmail.com 
--   LinkedIn : https://www.linkedin.com/in/sri-charan-bodduna-b39796114/
+-   LinkedIn : https://www.linkedin.com/in/sri-charan-bodduna/
 
 Thanks :)
 
